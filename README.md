@@ -16,5 +16,7 @@ For more details, please refer to my blog here [Soumik's blog on Spring data HAT
 
 The below command runs the program            
 
-`mvn exec:java -Dexec.mainClass="org.experiment.spring_data_jpa_without_springboot.CustomerTest" `
+`mvn exec:java -Dexec.mainClass="org.experiments.hateoas.HateOASRESTService" `
+
+Once the Spring boot based server is up and running, call the endpoint /employees
 
